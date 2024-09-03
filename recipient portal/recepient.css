@@ -1,0 +1,382 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fe3c3c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.note {
+    font-size: 1.5rem;
+    position: relative;
+    top: 7.5rem;
+    left: 10.2rem;
+}
+
+.Portal {
+    font-size: 4rem;
+}
+
+.head {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 9rem;
+    left: 10rem;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    color: #f20101;
+    font-weight: 500;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 9%;
+}
+
+.instruct {
+    font-size: 1.3rem;
+    color: white;
+    padding: 2rem;
+}
+
+.login_form {
+    background-image: url('Group 1692.png');
+    background-size: cover;
+    width: 550px;
+    height: 320px;
+    font-size: 1rem;
+}
+
+.login_form .content {
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+.login_form .form-group {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4.3rem;
+    margin-bottom: 1rem;
+}
+
+.otp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-field {
+    width: 60%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #ff9b9b;
+    color: #ec0000;
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 8px 25px;
+    height: 2rem;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #640404;
+}
+
+/* Hidden initially */
+.details {
+    width: 100%;
+    max-width: 1100px;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 9%;
+    margin-left: 9%;
+    /* gap: 4rem; */
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.arrow-btn {
+    padding: 10px;
+    background-color: transparent;
+    color: #00ffa6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+    margin-top: 1rem;
+}
+
+.arrow-btn:hover {
+    background-color: #640404;
+}
+
+.details .first {
+    height: 20.6rem;
+    background-image: url('Group\ 96.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    /* flex: 1; */
+}
+
+.details .first .one {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3.2rem;
+    margin-left: 4rem;
+}
+
+.track {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.top {
+    color: #d90000;
+    font-weight: 500;
+}
+
+.info {
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+.details .first .two {
+    width: 29rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.details .first .two img {
+    width: 12rem;
+    height: 3rem;
+    margin-top: 6rem;
+}
+
+.details .first .two .location {
+    display: flex;
+    flex-direction: column;
+}
+
+.details .first .two .location p {
+    color: #d90000;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+.details .first .two .location .place {
+    color: #000000;
+    font-size: 3rem;
+
+}
+
+.details .first .two .location .pincode {
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+
+.details .first .three {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+
+.details .first .three .track {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.details .first .three .track .top {
+    color: #d90000;
+    font-weight: 500;
+}
+
+.details .first .three .track .time {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.details .first .three .track .date {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.details .first .three .btn {
+    width: fit-content;
+}
+
+
+.details .second {
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.set {
+    width: 40rem;
+    height: 23rem;
+    background: url('Group\ 1692.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.details .second .instruct {
+    width: 40rem;
+    font-size: 1.3rem;
+    color: white;
+    padding: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+}
+
+.calendar-container {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    width: 15rem;
+    height: 19rem;
+    color: #f20101;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #ff0000;
+}
+
+.day-names {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: #ff0000;
+}
+
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* 7 columns for days of the week */
+    gap: 4px;
+}
+
+.day,
+.empty-day {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.day.selected {
+    background-color: #640404;
+    color: #ffffff;
+}
+
+.slot.selected {
+    background-color: #850000 !important;
+    color: white;
+}
+
+.empty-day {
+    visibility: hidden;
+    /* Keeps the blank spaces for days not in the current month */
+}
+
+
+
+.time-slots .slot {
+    width: 6rem;
+    height: 1.5rem;
+    background-color: #fa2727;
+    padding: 4px 9px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slot:hover {
+    background-color: #640404;
+}
+
+
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2.6rem;
+    margin-left: 3rem;
+    width: 16rem;
+    height: 19rem;
+
+}
+
+
+.details .third {
+    height: 20rem;
+}
+
+.slip-container {
+    width: 40rem;
+    height: 23rem;
+    background: url('Group\ 1692.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.slip-container h2{
+    color: #d90000;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-left: 13rem;
+}
+
+.slip {
+    position: absolute;
+    top: 19rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4rem ; /* Two rows with automatic height */
+    grid-gap: 1rem;
+}
+.slip .track{
+    margin-top: 8rem;
+    margin-left: 7rem;
+}

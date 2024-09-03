@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BharatPost Portal</title>
+    <link rel="stylesheet" href="recepient.css">
+</head>
+
+<body>
+    <div class="head"><img src="Group 65.png" alt="">
+        <div class="Portal">Portal</div>
+    </div>
+    <div class="note">
+        <p>Your one space to track and customize your delivery</p>
+    </div>
+
+    <div id="tracking-section" class="details">
+        <div class="second">
+            <div class="set">
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <button id="prevMonth">◀</button>
+                        <div id="currentMonth">August 2024</div>
+                        <button id="nextMonth">▶</button>
+                    </div>
+                    <div class="calendar">
+                        <div class="day-names">
+                            <div>S</div>
+                            <div>M</div>
+                            <div>T</div>
+                            <div>W</div>
+                            <div>T</div>
+                            <div>F</div>
+                            <div>S</div>
+                        </div>
+                        <div id="days" class="days">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <h3>Select time Slot</h3> -->
+                <div class="time-slots">
+                    <div class="slot">10:00-12:00</div>
+                    <div class="slot">12:00-14:00</div>
+                    <div class="slot">14:00-16:00</div>
+                    <div class="slot">16:00-18:00</div>
+                    <div class="slot">18:00-20:00</div>
+                    <div class="slot">20:00-22:00</div>
+                    <button class="btn" onclick="showNext()">Confirm </button>
+                </div>
+
+
+
+
+                <div class="instruct">
+                    <h3>Instructions</h3>
+                    <li>You can select the date & time slot accordingly.</li>
+                    <li>Grey area indicates slots are full</li>
+                    <li>This data can be changed only 2 times</li>
+                </div>
+            </div>
+
+
+            
+            <div class="arrow-container">
+                <button id="prevBtn" class="arrow-btn" style="display:none;" onclick="showPrevious()">⬅️</button>
+                <button id="nextBtn" class="arrow-btn" onclick="showNext()">➡️</button>
+            </div>
+        </div>
+        <script src="recipient.js"></script>
+</body>
+
+</html>
