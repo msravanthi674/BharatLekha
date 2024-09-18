@@ -28,6 +28,8 @@ Technical Approach
 * Backend: Python with Flask/Django, integrating AI models for time slot prediction.
 * Machine Learning: Utilization of reinforcement learning and LSTM for predicting delivery times based on last-mile distances.
 * 2-Way SMS Gateway: Facilitates communication between sender, recipient, and the system for real-time updates and confirmations.
+* ![Untitled design (18)](https://github.com/user-attachments/assets/36afd81b-4d2f-496c-9c83-606d60ea1a93)
+
 
 # Project Category and Theme
 * Category: Software
